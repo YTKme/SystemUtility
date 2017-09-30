@@ -1,0 +1,20 @@
+" Enable Syntax Highlighting
+syntax on
+
+" Highlight Current Line
+"set cursorline
+
+" Set Hard Stop Tab Size
+set tabstop=4
+" Fine Tune White Space
+"set softtabstop=4
+" Determine White Space In Normal Mode
+"set shiftwidth=4
+" Use Space Instead Tab
+"set expandtab
+
+" Display Line Number
+set number
+
+" Set Compatible
+"set nocompatible

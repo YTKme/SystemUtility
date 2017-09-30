@@ -1,0 +1,19 @@
+server {
+	listen 8080;
+	server_name development.localhost;
+
+	# root need to be here
+	root html/development;
+
+	location / {
+		index index.php index.html index.htm;
+	}
+
+	location ~ [^/]\.php(/|$) {
+		fastcgi_split_path_info ^(.+?\.php)(/.*)$;
+
+		fastcgi_pass 127.0.0.1:9000;
+		fastcgi_index index.php;
+		include fastcgi.conf;
+	}
+}
