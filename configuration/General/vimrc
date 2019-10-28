@@ -11,7 +11,7 @@ set tabstop=4
 " Determine White Space In Normal Mode
 "set shiftwidth=4
 " Use Space Instead Tab
-"set expandtab
+set expandtab
 
 " Display Line Number
 set number
